@@ -7,18 +7,19 @@ function addElementToBeginningOfArray(arr, s) {
 
 function destructivelyAddElementToBeginningOfArray(arr, s) {
   var array = arr;
-  array.unshift(s);
-  return array;
+
+  return array.unshift(s);
 }
 
 function addElementToEndOfArray(arr, s) {
-  var array = arr
+  var array = arr;
   return array.push(s)
 }
 
 function destructivelyAddElementToEndOfArray(arr, s) {
-  arr.last() = s;
-  return arr;
+  var array = arr;
+
+  return array;
 }
 
 function accessElementInArray(arr, i) {
